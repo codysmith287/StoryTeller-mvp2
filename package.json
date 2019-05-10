@@ -23,11 +23,13 @@
   "homepage": "https://github.com/codysmith287/hrr37-mvp2#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "nodemon": "^1.19.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #ffdc57;
+  height: 10vh;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
+  color: #8847C4;
+}
+
+.storyTeller {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #8847C4;
+}
+
+.mainStoryDisplay {
+  height: 50vh;
+  border: solid 2px #8847C4;
+}
+
+.myStoryList {
+  height: 50vh;
+  border: solid 2px #8847C4;
+}
+
+.storyLibrary {
+  height: 40vh;
+  border: solid 2px #8847C4;
+}
+
