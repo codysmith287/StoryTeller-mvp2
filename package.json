@@ -1,0 +1,43 @@
+{
+  "name": "hrr37-mvp2",
+  "version": "1.0.0",
+  "description": "mvp storytelling app",
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js -w server",
+    "build": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codysmith287/hrr37-mvp2.git"
+  },
+  "keywords": [
+    "Storytelling"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codysmith287/hrr37-mvp2/issues"
+  },
+  "homepage": "https://github.com/codysmith287/hrr37-mvp2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
