@@ -3,7 +3,7 @@ const storyData = [
     title: 'The Three Little Pigs',
     author: 'Flora Annie Steel',
     description:
-      "The story of The Three Little Pigs featured here has been adapted from different sources and from childhood memory. The primary sources are English Fairy Tales, retold by Flora Annie Steel (1922) with illustrations by L. Leslie Brooke from the 1904 version. This story is featured in our Favorite Fairy Tales and Children's Stories.",
+      'The story of The Three Little Pigs featured here has been adapted from different sources and from childhood memory. The primary sources are English Fairy Tales, retold by Flora Annie Steel (1922) with illustrations by L. Leslie Brooke from the 1904 version.',
     full_story: [
       'Once upon a time there was an old mother pig who had three little pigs and not enough food to feed them. So when they were old enough, she sent them out into the world to seek their fortunes.',
       "The first little pig was very lazy. He didn't want to work at all and he built his house out of straw. The second little pig worked a little bit harder but he was somewhat lazy too and he built his house out of sticks. Then, they sang and danced and played together the rest of the day.",
@@ -34,7 +34,7 @@ const storyData = [
     title: 'Goldilocks and the Three Bears',
     author: 'Flora Annie Steel',
     description:
-      "Goldilocks and the Three Bears was originally titled The Story of the Three Bears, published in the collection English Fairytales, retold by Flora Annie Steel (1922), illustrated by Arthur Rackham. We hope you think it's not too hot, not too cold, but JUST RIGHT! This story is featured in our Favorite Fairy Tales.",
+      "Goldilocks and the Three Bears was originally titled The Story of the Three Bears, published in the collection English Fairytales, retold by Flora Annie Steel (1922), illustrated by Arthur Rackham. We hope you think it's not too hot, not too cold, but JUST RIGHT!",
     full_story: [
       'Once upon a time there were three Bears, who lived together in a house of their own, in a wood. One of them was a Little Wee Bear, and one was a Middle-sized Bear, and the other was a Great Big Bear. They had each a bowl for their porridge; a little bowl for the Little Wee Bear; and a middle-sized bowl for the Middle-sized Bear; and a great bowl for the Great Big Bear. And they had each a chair to sit in; a little chair for the Little Wee Bear; and a middle-sized chair for the Middle-sized Bear; and a great chair for the Great Big Bear. And they had each a bed to sleep in; a little bed for the Little Wee Bear; and a middle-sized bed for the Middle-sized Bear; and a great bed for the Great Big Bear.',
       'One day, after they had made the porridge for their breakfast, and poured it into their porridge-bowls, they walked out into the wood while the porridge was cooling, that they might not burn their mouths by beginning too soon, for they were polite, well-brought-up Bears. And while they were away a little girl called Goldilocks, who lived at the other side of the wood and had been sent on an errand by her mother, passed by the house, and looked in at the window. And then she peeped in at the keyhole, for she was not at all a well-brought-up little girl. Then seeing nobody in the house she lifted the latch. The door was not fastened, because the Bears were good Bears, who did nobody any harm, and never suspected that anybody would harm them. So Goldilocks opened the door and went in; and well pleased was she when she saw the porridge on the table. If she had been a well-brought-up little girl she would have waited till the Bears came home, and then, perhaps, they would have asked her to breakfast; for they were good Bears—a little rough or so, as the manner of Bears is, but for all that very good-natured and hospitable. But she was an impudent, rude little girl, and so she set about helping herself.',
@@ -64,6 +64,22 @@ const storyData = [
       'After some days, Jack once again climbed the beanstalk and went to the giant’s castle. For the third time, Jack met the giant’s wife and asked for some food. Once again, the giant’s wife gave him bread and milk. But while Jack was eating, the giant came home. “Fee-fi-fo-fum, I smell the blood of an Englishman. Be he alive, or be he dead, I’ll grind his bones to make my bread!” cried the giant. “Don’t be silly! There is no boy in here!” said his wife.',
       'The giant had a magical harp that could play beautiful songs. While the giant slept, Jack took the harp and was about to leave. Suddenly, the magic harp cried, “Help master! A boy is stealing me!” The giant woke up and saw Jack with the harp. Furious, he ran after Jack. But Jack was too fast for him. He ran down the beanstalk and reached home. The giant followed him down. Jack quickly ran inside his house and fetched an axe. He began to chop the beanstalk. The giant fell and died.',
       'Jack and his mother were now very rich and they lived happily ever after.'
+    ],
+    story_img: 's3 link here',
+    on_StoryList: false
+  },
+  {
+    title: 'The Three Billy-Goats Gruff',
+    author: '',
+    description:
+      "The Three Billy Goat's Gruff is a famous Norwegian folktale that will charm any child. A mean and hungry troll lives under a bridge. He's hungry for a meal and would love to snatch and eat any goat attempting to cross his bridge. How can the three goats get across safely? They must be clever! A wonderful children's story to read out loud in a classroom or before bedtime.",
+    full_story: [
+      'Once upon a time there were three billy goats, who were to go up to the hillside to make themselves fat, and the name of all three was "Gruff." On the way up was a bridge over a cascading stream they had to cross; and under the bridge lived a great ugly troll , with eyes as big as saucers, and a nose as long as a poker.',
+      '"Trip, trap, trip, trap! " went the bridge. "Who\'s that tripping over my bridge?" roared the troll. "Oh, it is only I, the tiniest Billy Goat Gruff, and I\'m going up to the hillside to make myself fat," said the billy goat, with such a small voice. "Now, I\'m coming to gobble you up," said the troll.',
+      '"Oh, no! pray don\'t take me. I\'m too little, that I am," said the billy goat. "Wait a bit till the second Billy Goat Gruff comes. He\'s much bigger." "Well, be off with you," said the troll. A little while after came the second Billy Goat Gruff to cross the bridge. Trip, trap, trip, trap, trip, trap, went the bridge. "Who\'s that tripping over my bridge?" roared the troll. "Oh, it\'s the second Billy Goat Gruff, and I\'m going up to the hillside to make myself fat," said the billy goat, who hadn\'t such a small voice. "Now I\'m coming to gobble you up," said the troll.',
+      '"Oh, no! Don\'t take me. Wait a little till the big Billy Goat Gruff comes. He\'s much bigger." "Very well! Be off with you," said the troll. But just then up came the big Billy Goat Gruff. Trip, trap, trip, trap, trip, trap! went the bridge, for the billy goat was so heavy that the bridge creaked and groaned under him. "Who\'s that tramping over my bridge?" roared the troll. "It is I! The big Billy Goat Gruff," said the billy goat, who had an ugly hoarse voice of his own. "Now I\'m coming to gobble you up," roared the troll.',
+      "Well, come along! I've got two spears, and I'll poke your eyeballs out at your ears. I've got besides two curling-stones, and I'll crush you to bits, body and bones.",
+      "That was what the big billy goat said. And then he flew at the troll, and poked his eyes out with his horns, and crushed him to bits, body and bones, and tossed him out into the cascade, and after that he went up to the hillside. There the billy goats got so fat they were scarcely able to walk home again. And if the fat hasn't fallen off them, why, they're still fat; and so, Snip, snap, snout. This tale's told out."
     ],
     story_img: 's3 link here',
     on_StoryList: false
