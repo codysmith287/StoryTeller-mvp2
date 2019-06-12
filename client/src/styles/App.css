@@ -18,17 +18,17 @@
 }
 
 .mainStoryDisplay {
-  height: 50vh;
+  height: 60vh;
   border: solid 2px #8847C4;
 }
 
 .myStoryList {
-  height: 50vh;
+  height: 60vh;
   border: solid 2px #8847C4;
 }
 
 .storyLibrary {
-  height: 40vh;
+  height: 30vh;
   border: solid 2px #8847C4;
 }
 
