@@ -70,7 +70,7 @@ const storyData = [
   },
   {
     title: 'The Three Billy-Goats Gruff',
-    author: '',
+    author: 'Author Unknown',
     description:
       "The Three Billy Goat's Gruff is a famous Norwegian folktale that will charm any child. A mean and hungry troll lives under a bridge. He's hungry for a meal and would love to snatch and eat any goat attempting to cross his bridge. How can the three goats get across safely? They must be clever! A wonderful children's story to read out loud in a classroom or before bedtime.",
     full_story: [
@@ -103,8 +103,8 @@ const storyData = [
     on_StoryList: false
   },
   {
-    title: 'The Little Old Woman Who Lived in a Shoe',
-    author: 'Joseph Martin Kronheim',
+    title: 'The Tortoise And The Hare',
+    author: 'Aesop',
     description:
       "The Tortoise and the Hare is similar to The Brothers' Grimm fairy tale, The Hare and the Hedgehog.",
     full_story: [
@@ -116,3 +116,5 @@ const storyData = [
     on_StoryList: false
   }
 ];
+
+export default storyData;

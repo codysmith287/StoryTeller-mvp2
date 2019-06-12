@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
+  color: #8847C4;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.plus {
+  margin-right: 5px;
+  color: #8847C4;
+  cursor: pointer;
+}
+
+.story-title {
+  font-style: italic;
+  color: #787878;
+}
