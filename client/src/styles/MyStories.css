@@ -1,22 +1,9 @@
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .title {
+  margin-top: 15px;
   text-align: center;
   font-family: 'Rancho', cursive;
   font-size: 1.5em;
   color: #8847C4;
-}
-
-.margin-bottom {
-  margin-bottom: 10px;
-}
-
-.plus {
-  margin-right: 5px;
-  color: #8847C4;
-  cursor: pointer;
 }
 
 .story-title {
@@ -24,3 +11,13 @@
   color: #787878;
   cursor: pointer;
 }
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.read {
+  margin-right: 5px;
+  color: #8847C4;
+}
+

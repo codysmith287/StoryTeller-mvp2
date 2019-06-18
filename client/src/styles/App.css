@@ -1,34 +1,35 @@
 .navbar {
   background-color: #ffdc57;
   height: 10vh;
-}
-
-.title {
-  text-align: center;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 1.5em;
-  color: #8847C4;
+  min-height: 10vh;
 }
 
 .storyTeller {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Rancho', cursive;
   font-weight: 700;
   font-size: 2em;
   color: #8847C4;
 }
 
 .mainStoryDisplay {
-  height: 60vh;
+  height: 80vh;
   border: solid 2px #8847C4;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .myStoryList {
-  height: 60vh;
+  height: 80vh;
   border: solid 2px #8847C4;
 }
 
 .storyLibrary {
-  height: 30vh;
+  height: 40vh;
   border: solid 2px #8847C4;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 

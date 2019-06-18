@@ -2,8 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import '../styles/StoryLibrary.css';
 
-const StoryLibrary = props => {
-  console.log(props);
+const StoryLibrary = (props) => {
+  const handleStoryListAddClick = (e) => {
+    props.onStoryListAddClick(e.target.id);
+  }
+  const handleStoryTitleClick = (e) => {
+    props.onStoryTitleClick(e.target.id)
+  }
   return (
     <div>
       <Container>
@@ -19,15 +24,33 @@ const StoryLibrary = props => {
             return (
               <Row key={index}>
                 <Col md="6" className="margin-bottom">
-                  <i className="fa fa-plus plus" aria-hidden="true"></i>
-                  <span className="story-title">
+                  <i
+                    className="fa fa-plus plus"
+                    aria-hidden="true"
+                    onClick={handleStoryListAddClick}
+                    id={story.id}
+                  ></i>
+                  <span
+                    className="story-title"
+                    id={story.id}
+                    onClick={handleStoryTitleClick}
+                  >
                     {`${story.title}`}
                   </span>
                   <span>{` by ${story.author}`}</span>
                 </Col>
                 <Col md="6" className="margin-bottom">
-                  <i className="fa fa-plus plus" aria-hidden="true"></i>
-                  <span className="story-title">
+                  <i
+                    className="fa fa-plus plus"
+                    aria-hidden="true"
+                    onClick={handleStoryListAddClick}
+                    id={story.id + 1}
+                  ></i>
+                  <span
+                    className="story-title"
+                    id={story.id + 1}
+                    onClick={handleStoryTitleClick}
+                  >
                     {`${props.storyLibrary[index + 1].title}`}
                   </span>
                   <span>
