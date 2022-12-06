@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/codysmith287/hrr37-mvp2#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "nodemon": "^1.19.0",
     "pg": "^7.10.0",
     "react": "^16.8.6",
